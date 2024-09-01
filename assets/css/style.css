@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}   
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+p{
+    font-weight: 300;
+}
+.flex-container{
+    display: flex;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 70vh;
+    background-color: #FFFFFF;
+    border: 1px solid #CDC3E6;
+}
+.flex-active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    border-bottom: 1px solid #CDC3E6;
+   
+}
+
+.flex-pics-name{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.flex-pics-name img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.flex-icon-maria{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}   
+.flex-icon-maria i{
+    font-size:30px;
+    color: #A491D2;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.flex-name-maria p{
+    font-size: small;
+    font-weight: 400;
+    color:#BEC1BB;
+    
+}
+
+.flex-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 24vh;
+    border-bottom: 1px solid #CDC3E6;
+}
+.flex-button-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color:#A491D2;
+    width: 200px;
+    height: 50px;
+}
+
+.flex-button-chat p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.flex-user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-user-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding: 30px;
+    background-color:#fff;
+    border-bottom: 1px solid #CDC3E6;
+}
+.flex-user-box img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 100%;
+} 
+
+.flex-user-box-name{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    text-align: left; 
+    
+} 
+
+.flex-user-box-name h2{
+    margin-bottom: 5px;
+}
+
+.main-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.main-container h1{
+    font-size: 45px;
+    font-weight: 400;
+  
+}
+.main-container img{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+
+.main-container p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+
